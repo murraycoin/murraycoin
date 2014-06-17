@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Murraycoin
+Comment=Murraycoin P2P Cryptocurrency
+Comment[fr]=Murraycoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Murraycoin, eşten eşe kriptografik sanal para birimi
+Exec=murraycoin-qt %u
+Terminal=false
+Type=Application
+Icon=murraycoin128
+MimeType=x-scheme-handler/murraycoin;
+Categories=Office;Finance;

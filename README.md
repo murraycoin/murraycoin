@@ -1,4 +1,4 @@
-# Murraycoin [MRY] [<a href="https://www.murraycoin.org/">murraycoin.org</a>]
+Murraycoin [MRY] [<a href="https://www.murraycoin.org/" target="_blank">murraycoin.org</a>]
 ==========================
 
 "There are two types of people in this world: Those who like Neil Diamond, and those who don't. My ex-wife loves him."
@@ -7,18 +7,22 @@
 
 ![Murraycoin](https://23e581f9788c7942a462-826b8b60bdcccd5086d5eab06549f695.ssl.cf2.rackcdn.com/images/logo_big.png)
 
-## What is Murraycoin?
+What is Murraycoin?
+==========================
 Murraycoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (PoW). Taking development cues from Litecoin, Murraycoin currently employs a simplified variant of scrypt. However, on July 4th 2014, Murraycoin will automatically switch to a GPU/CPU-optimized and, as of this writing, Scrypt-ASIC-incompatible algorithm for PoW: Scrypt-2048; Scrypt-2048 is more memory intensive than standard scrypt. While other coins have adopted Scrypt-N to automatically adapt to advancing technology, Murraycoin opted to use Scrypt-2048 instead to ensure consistent and stable results with no surprises and a wider range of compatibility with consumer hardware down the line. Also, Scrypt-4096 ASIC miners are already in development and will likely begin shipping shortly into the Scrypt-N switch to Scrypt-4096 - Scrypt-2048 is the sweet spot that many Scrypt-N coins will likely end up having to create forks to adopt back to down the road. Also: Bill Murray.
 
-## License
+License
+==========================
 Murraycoin is released under the terms of the MIT license. See [COPYING](COPYING)
 for more information or see http://opensource.org/licenses/MIT.
 
-## Development and contributions
+Development and contributions
+==========================
 Development is ongoing and the development team as well as other volunteers can freely work in their own trees and submit pull requests when features or bug fixes are ready.
 
-#### Specifications
-Murraycoin - Open Source cryptographic Internet currency (Launched Jan 20th, 2014)
+Specifications
+==========================
+ - Launched January 20th, 2014
  - Scrypt proof-of-work*
  - 100 second block targets
  - Subsidy halves every 300k blocks (~350 days)
@@ -37,7 +41,8 @@ Murraycoin - Open Source cryptographic Internet currency (Launched Jan 20th, 201
  - Scrypt PoW adjusts to Scrypt-2048 for PoW on July 4th, 2014
  - Difficulty adjusts every block using a weighted formula starting at block 130,000 (will occur in June 2014)
 
-#### Branches
+Branches
+==========================
 There are 3 types of branches in this repository:
 
 - **master:** Stable, contains the latest version of the latest *major.minor* release.

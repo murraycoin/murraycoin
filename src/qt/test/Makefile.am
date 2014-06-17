@@ -9,7 +9,6 @@ bin_PROGRAMS = test_murraycoin-qt
 TESTS = test_murraycoin-qt
 
 TEST_QT_MOC_CPP = \
-  moc_bitcoinunitstests.cpp \
   moc_uritests.cpp
 
 if ENABLE_WALLET
@@ -17,7 +16,6 @@ TEST_QT_MOC_CPP += moc_paymentservertests.cpp
 endif
 
 TEST_QT_H = \
-  bitcoinunitstests.h \
   uritests.h \
   paymentrequestdata.h \
   paymentservertests.h
@@ -27,7 +25,6 @@ BUILT_SOURCES = $(TEST_QT_MOC_CPP)
 test_murraycoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) $(QT_TEST_INCLUDES)
 
 test_murraycoin_qt_SOURCES = \
-  bitcoinunitstests.cpp \
   test_main.cpp \
   uritests.cpp \
   $(TEST_QT_H)

@@ -41,16 +41,10 @@ Specifications
  - Scrypt PoW adjusts to Scrypt-2048 for PoW on July 4th, 2014
  - Difficulty adjusts every block using a weighted formula starting at block 130,000 (will occur in June 2014)
 
-Branches
-==========================
-There are 3 types of branches in this repository:
+Standard Ports
+ - RPC 11950
+ - P2P 11951
 
-- **master:** Stable, contains the latest version of the latest *major.minor* release.
-- **maintenance:** Stable, contains the latest version of previous releases, which are still under active maintenance. Format: ```<version>-maint```
-- **development:** Unstable, contains new code for planned releases. Format: ```<version>-dev```
-
-*Master and maintenance branches are exclusively mutable by release. Planned releases will always have a development branch and pull requests should be submitted against those. Maintenance branches are there for* ***bug fixes only,*** *please submit new features against the development branch with the highest version.*
-
-### Ports
-RPC: 11950
-P2P: 11951
+TestNet Ports
+ - RPC 51950
+ - P2P 51951

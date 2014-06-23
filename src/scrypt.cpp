@@ -292,7 +292,7 @@ void scrypt_N_1_1_256_sp_generic(const char *input, char *output, char *scratchp
 
 #if defined(USE_SSE2)
 // By default, set to generic scrypt function. This will prevent crash in case when scrypt_detect_sse2() wasn't called
-void (*scrypt_N_1_1_256_sp_detected)(const char *input, char *output, char *scratchpad) = &scrypt_N_1_1_256_sp_generic;
+void (*scrypt_N_1_1_256_sp_detected)(const char *input, char *output, char *scratchpad, unsigned char Nfactor) = &scrypt_N_1_1_256_sp_generic;
 
 void scrypt_detect_sse2()
 {
